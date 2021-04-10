@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>hyd air</title>
+	<link type="text/css" rel="stylesheet" href="css/common.css">
+</head>
+<body>
+	<div class="audio-slideshow" data-audio="audio/Dave Brubeck - Take Five.mp4" data-audio-duration="30">
+	<div class="audio-slides">
+		<img src="img/1.jpg" data-thumbnail="img/1.jpg" data-slide-time="0">
+		<img src="img/2.jpg" data-thumbnail="img/2.jpg" data-slide-time="3">
+		<img src="img/3.jpg" data-thumbnail="img/3.jpg" data-slide-time="6">
+		<img src="img/4.jpg" data-thumbnail="img/4.jpg" data-slide-time="9">
+		<img src="img/5.jpg" data-thumbnail="img/5.jpg" data-slide-time="12">
+		<img src="img/6.jpg" data-thumbnail="img/6.jpg" data-slide-time="16">
+		<img src="img/7.jpg" data-thumbnail="img/7.jpg" data-slide-time="20">
+		<img src="img/8.jpg" data-thumbnail="img/8.jpg" data-slide-time="24">
+		<img src="img/9.jpg" data-thumbnail="img/9.jpg" data-slide-time="28">
+		<img src="img/1.jpg" data-thumbnail="img/1.jpg" data-slide-time="0">
+		<img src="img/2.jpg" data-thumbnail="img/2.jpg" data-slide-time="3">
+		<img src="img/3.jpg" data-thumbnail="img/3.jpg" data-slide-time="6">
+		<img src="img/4.jpg" data-thumbnail="img/4.jpg" data-slide-time="9">
+		<img src="img/5.jpg" data-thumbnail="img/5.jpg" data-slide-time="12">
+		<img src="img/6.jpg" data-thumbnail="img/6.jpg" data-slide-time="16">
+		<img src="img/7.jpg" data-thumbnail="img/7.jpg" data-slide-time="20">
+		<img src="img/8.jpg" data-thumbnail="img/8.jpg" data-slide-time="24">
+		<img src="img/9.jpg" data-thumbnail="img/9.jpg" data-slide-time="28">
+	</div>
+	<div class="audio-control-interface">
+		<div class="controls_time_block">
+			<div class="play-pause-container">
+				<a href="javascript:;" class="audio-play" tabindex="1">Play</a>
+				<a href="javascript:;" class="audio-pause" tabindex="1">Pause</a>
+			</div>
+			<div class="time-container">
+				<span class="play-time"></span> / <span class="total-time"></span>
+			</div>
+		</div>
+
+		<div class="timeline">
+			<div class="timeline-controls"></div>
+			<div class="playhead"></div>
+		</div>
+
+	 	<div class="jplayer"></div>
+	</div>
+</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/jquery.jplayer.js"></script>
+	<script src="js/jquery.audioslideshow.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.audio-slideshow').audioSlideshow({});
+		});
+	</script>
+</body>
+</html>
